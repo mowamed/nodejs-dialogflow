@@ -4,6 +4,22 @@
 
 [1]: https://www.npmjs.com/package/dialogflow?activeTab=versions
 
+## [2.0.0](https://www.github.com/googleapis/nodejs-dialogflow/compare/v1.2.0...v2.0.0) (2020-03-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* updated protos and renamed path template helpers
+* move API to typescript code generation (#523)
+
+### Features
+
+* added getValidationResult and field mask override control for output audio config ([4fd6c71](https://www.github.com/googleapis/nodejs-dialogflow/commit/4fd6c71d979256850eb655a9f4554bee051e489c))
+* deferred client initialization ([#555](https://www.github.com/googleapis/nodejs-dialogflow/issues/555)) ([93ba86e](https://www.github.com/googleapis/nodejs-dialogflow/commit/93ba86e586ffd7d563da9118f96fa1b172c13d7d))
+* export protos in src/index.ts ([92d805b](https://www.github.com/googleapis/nodejs-dialogflow/commit/92d805b452e7c61da6c87eb32ebe3e358e15a187))
+* move API to typescript code generation ([#523](https://www.github.com/googleapis/nodejs-dialogflow/issues/523)) ([19793a5](https://www.github.com/googleapis/nodejs-dialogflow/commit/19793a57250f22c9ea7ebde1d4553cbc5c93253c))
+* updated protos and renamed path template helpers ([1c1b01c](https://www.github.com/googleapis/nodejs-dialogflow/commit/1c1b01ca4de61ca2ac77fedd4c5f33d9d5797c0d))
+
 ## [1.2.0](https://www.github.com/googleapis/nodejs-dialogflow/compare/v1.1.2...v1.2.0) (2020-02-07)
 
 
